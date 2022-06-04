@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
-
+import Combine
+import Foundation
 @main
 struct DesafioImgurApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+          AppView()
         }
     }
 }
